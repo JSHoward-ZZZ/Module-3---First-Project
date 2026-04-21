@@ -70,13 +70,16 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 /* The About Section */
 
-#about {
+#about,
+#discord,
+#contact,
+footer{
     padding: 48px 0;
-    background-color: #f5f5f5;
 }
 
 h2 {
@@ -122,4 +125,45 @@ changes padding for both elements */
 #discord {
     background-color: teal;
     padding: 48px 0;
+}
+
+/* Contact Section */
+
+#contact {
+    background-color: black;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+/* Footer Section */
+footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links{
+    margin-bottom: 32px;
+}
+
+.footer__link{
+    padding: 0 16px;
 }

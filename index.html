@@ -1,83 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <section>
-        <nav>
-            <img src="#" class="logo" alt="Logo">
-            <ul>
-                <li><a href="About">About</a></li>
-                <li><a href="Discord">Discord</a></li>
-                <li><a href="Contact">Contact</a></li>
-            </ul>
-        </nav>
-        <header>
+      <nav>
+        <img src="#" class="logo" alt="Logo" />
+        <ul>
+          <li><a href="About">About</a></li>
+          <li><a href="Discord">Discord</a></li>
+          <li><a href="Contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
         <div class="row">
-            <div>
-                <h1>The absolute best place to learn Front end Development</h1>
-                <p class="subheader">Join our community and start your journey to becoming a Front end Developer today!</p>
-                <button>Join Now</button>
-            </div>
-            <figure>
-                <img src="#" alt="Laptop Image">
-            </figure>
+          <div>
+            <h1>The absolute best place to learn Front end Development</h1>
+            <p class="subheader">
+              Join our community and start your journey to becoming a Front end
+              Developer today!
+            </p>
+            <button>Join Now</button>
+          </div>
+          <figure>
+            <img src="#" alt="Laptop Image" />
+          </figure>
         </div>
-        </header>
+      </header>
     </section>
 
     <main>
-        <section id="About">
-            <h2>About us</h2>
-            <div class="section__description">
+      <section id="About">
+        <h2>About us</h2>
+        <div class="row">
+          <div class="section__description">
             <div class="section__description--wrapper">
-                <p class="section__description--para">Bee Movie goes here honestly.</p>
+              <p class="section__description--para">
+                Bee Movie goes here honestly.
+              </p>
             </div>
             <figure class="about__img--wrapper">
-                <img src="#" alt="Laptop Typing Image">
+              <img src="#" alt="Laptop Typing Image" />
             </figure>
-            </div>
-        </section>
-
-        <section id="Discord">
-            <h2>Join the Discord</h2>
-            <div class="section__description">
-                <p class="section__description--para">Our Discord server is a great place to connect with other developers, ask questions, and get help with your projects. We have channels for all levels of experience, so whether you're a beginner or an experienced developer, you'll find a welcoming community here.</p>
-            <figure class="about__img--wrapper">
-                <img src="#" alt="Discord Logo">
-            </figure>
-            <div class="section__description--wrapper">
-                <p class="section__description--para">Join our Discord server to connect with other developers and get help with your projects!</p>
-            </div>
-            </div>
-        </section>
-
-        <section id="Contact">
-            <h2>Contact Us</h2>
-            <form action="">
-                <label for="email">Email:
-                    <input type="Email" placeholder="john.doe@gmail.com">
-                </label>
-                <label for="Message"> Message:
-                    <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Your message here..."></textarea>
-                </label>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <img src="#" alt="Logo">
-        <div>
-            <a href="About">About</a>
-            <a href="Discord">Discord</a>
-            <a href="Contact">Contact</a>
-            <a href="#">Courses</a>
+          </div>
         </div>
-        <p>&copy; 2024 Front end Dev Community. All rights reserved.</p>
+      </section>
+
+      <section id="Discord">
+        <h2>Join the Discord</h2>
+        <div class="row">
+          <div class="section__description">
+            <p class="section__description--para">
+              Our Discord server is a great place to connect with other
+              developers, ask questions, and get help with your projects. We
+              have channels for all levels of experience, so whether you're a
+              beginner or an experienced developer, you'll find a welcoming
+              community here.
+            </p>
+            <figure class="about__img--wrapper">
+              <img src="#" alt="Discord Logo" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Join our Discord server to connect with other developers and get
+                help with your projects!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Contact">
+        <h2>Contact Us</h2>
+        <form action="">
+          <label for="email"
+            >Email:
+            <input type="Email" placeholder="john.doe@gmail.com" />
+          </label>
+          <label for="Message">
+            Message:
+            <textarea
+              name="Message"
+              id="Message"
+              cols="30"
+              rows="10"
+              placeholder="Your message here..."
+            ></textarea>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <img class="footer__logo" src="#" alt="Logo" />
+      <div class="footer__links">
+        <a class="footer__link" href="About">About</a>
+        <a class="footer__link" href="Discord">Discord</a>
+        <a class="footer__link" href="Contact">Contact</a>
+        <a class="footer__link" href="#">Courses</a>
+      </div>
+      <p>&copy; 2024 Front end Dev Community. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
